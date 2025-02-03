@@ -88,11 +88,26 @@ document.addEventListener("DOMContentLoaded", function() {
     //--------------------------- Opgave 6 -------------------------------------------------------
 
     
-    let dogString = dogsArray.join('');  // Using '' for no gap 
+    // let dogString = dogsArray.join('');  // Using '' for no gap 
 
-    console.log("Opgave 6", dogString)
+    // console.log("Opgave 6", dogString)
 
     //--------------------------- Opgave 6 End -------------------------------------------------------
+    
+    
+    //--------------------------- Opgave 7 -------------------------------------------------------
+
+    //--------- 7a ----    
+    // let indexFruit = fruitsArray.indexOf("Mango")
+
+    // console.log("Opgave 7a: Mango index is: ", indexFruit)
+    
+    //--------- 7b ----    
+    let indexFruit = fruitsArray.indexOf("Blåbær")     // findIndex()
+
+    console.log("Opgave 7b: Blåbær index is: ", indexFruit)
+
+    //--------------------------- Opgave 7 End -------------------------------------------------------
     
 
 }) // ends DOMContentLoaded
