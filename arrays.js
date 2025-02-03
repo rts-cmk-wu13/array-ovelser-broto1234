@@ -6,4 +6,27 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // --- Løs opgaverne herunder --- 
 
+    //--------------------------- Opgave 1---------------------------------------
+    
+    //---------- forEach & if---------
+    // let newArray = [];
+
+    // numbersArray.forEach(function(num) {
+    //     // console.log(num)
+    //     if(num > 20) return newArray.push(num)            
+    // })
+    
+    // console.log(newArray);
+
+    //-------- filter() -------
+
+    let newNumbers = numbersArray.filter(function (num) {
+        return num > 20
+    })
+
+    console.log(newNumbers)
+
+    //-------------------------------Opgave 1 End -------------------------------------------
+    
+
 }) // ends DOMContentLoaded
