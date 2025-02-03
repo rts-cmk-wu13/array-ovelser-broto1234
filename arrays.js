@@ -37,10 +37,23 @@ document.addEventListener("DOMContentLoaded", function() {
     
     //-------- concat() -----------
     
-    let catsArrayNew = catsArray.concat("Sniffles");
-    console.log(catsArrayNew)
+    // let catsArrayNew = catsArray.concat("Sniffles");
+    // console.log(catsArrayNew)
 
     //------------------------- Opgave 2 End-------------------------------------------------
+
+
+    //--------------------------- Opgave 3 -------------------------------------------------------
+
+   
+   //------- 3a --------
+    let checkTrixie = dogsArray.includes("Trixie");
+    console.log("Opgave 3a", checkTrixie)
+
+   //------- 3b --------
+    let checkBaxter = dogsArray.includes("Baxter");
+    console.log("Opgave 3b", checkBaxter)
+
     
 
 }) // ends DOMContentLoaded
