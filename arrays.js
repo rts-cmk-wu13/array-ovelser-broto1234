@@ -20,13 +20,27 @@ document.addEventListener("DOMContentLoaded", function() {
 
     //-------- filter() -------
 
-    let newNumbers = numbersArray.filter(function (num) {
-        return num > 20
-    })
+    // let newNumbers = numbersArray.filter(function (num) {
+    //     return num > 20
+    // })
 
-    console.log(newNumbers)
+    // console.log(newNumbers)
 
     //-------------------------------Opgave 1 End -------------------------------------------
+    
+    
+    //------------------ Opgave 2 ------------------------------------------------------------------------
+
+    //--------- push() ----------------
+    // catsArray.push("Sniffles");
+    // console.log(catsArray)
+    
+    //-------- concat() -----------
+    
+    let catsArrayNew = catsArray.concat("Sniffles");
+    console.log(catsArrayNew)
+
+    //------------------------- Opgave 2 End-------------------------------------------------
     
 
 }) // ends DOMContentLoaded
