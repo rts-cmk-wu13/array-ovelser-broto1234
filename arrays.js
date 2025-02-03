@@ -60,19 +60,30 @@ document.addEventListener("DOMContentLoaded", function() {
     //--------------------------- Opgave 4 -------------------------------------------------------
 
     //------- 4a -----
-    let catFind = catsArray.find(function(cat) {
-        return cat == "Bagheera"}) 
+    // let catFind = catsArray.find(function(cat) {
+    //     return cat == "Bagheera"}) 
 
-    console.log(catFind)
+    // console.log(catFind)
 
     //------- 4b -----
 
-    let catFind2 = catsArray.find(function(cat) {
-        return cat == "Salem"}) 
+    // let catFind2 = catsArray.find(function(cat) {
+    //     return cat == "Salem"}) 
 
-    console.log(catFind2)
+    // console.log(catFind2)
 
     //--------------------------- Opgave 4 End -------------------------------------------------------
+
+
+    //--------------------------- Opgave 5 -------------------------------------------------------
+
+    
+    let newNumbersArray = numbersArray.map(function(num) {
+        return num * 3}) 
+
+    console.log(newNumbersArray)
+
+    //--------------------------- Opgave 5 End -------------------------------------------------------
     
 
 }) // ends DOMContentLoaded
