@@ -103,11 +103,22 @@ document.addEventListener("DOMContentLoaded", function() {
     // console.log("Opgave 7a: Mango index is: ", indexFruit)
     
     //--------- 7b ----    
-    let indexFruit = fruitsArray.indexOf("Blåbær")     // findIndex()
+    // let indexFruit = fruitsArray.indexOf("Blåbær")     // findIndex()
 
-    console.log("Opgave 7b: Blåbær index is: ", indexFruit)
+    // console.log("Opgave 7b: Blåbær index is: ", indexFruit)
 
     //--------------------------- Opgave 7 End -------------------------------------------------------
+    
+    
+    //--------------------------- Opgave 8 -------------------------------------------------------
+
+    let newArrayDog = dogsArray.filter(function (dog){
+        return dog != "Polly";
+    })
+
+    console.log("Opgave 8: New dog lists: ", newArrayDog)
+
+    //--------------------------- Opgave 8 End -------------------------------------------------------
     
 
 }) // ends DOMContentLoaded
