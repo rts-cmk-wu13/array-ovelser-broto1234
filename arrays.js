@@ -47,13 +47,32 @@ document.addEventListener("DOMContentLoaded", function() {
 
    
    //------- 3a --------
-    let checkTrixie = dogsArray.includes("Trixie");
-    console.log("Opgave 3a", checkTrixie)
+    // let checkTrixie = dogsArray.includes("Trixie");
+    // console.log("Opgave 3a", checkTrixie)
 
    //------- 3b --------
-    let checkBaxter = dogsArray.includes("Baxter");
-    console.log("Opgave 3b", checkBaxter)
+    // let checkBaxter = dogsArray.includes("Baxter");
+    // console.log("Opgave 3b", checkBaxter)
 
+    //--------------------------- Opgave 3 End -------------------------------------------------------
+
+
+    //--------------------------- Opgave 4 -------------------------------------------------------
+
+    //------- 4a -----
+    let catFind = catsArray.find(function(cat) {
+        return cat == "Bagheera"}) 
+
+    console.log(catFind)
+
+    //------- 4b -----
+
+    let catFind2 = catsArray.find(function(cat) {
+        return cat == "Salem"}) 
+
+    console.log(catFind2)
+
+    //--------------------------- Opgave 4 End -------------------------------------------------------
     
 
 }) // ends DOMContentLoaded
