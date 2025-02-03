@@ -112,13 +112,26 @@ document.addEventListener("DOMContentLoaded", function() {
     
     //--------------------------- Opgave 8 -------------------------------------------------------
 
-    let newArrayDog = dogsArray.filter(function (dog){
-        return dog != "Polly";
-    })
+    // let newArrayDog = dogsArray.filter(function (dog){
+    //     return dog != "Polly";
+    // })
 
-    console.log("Opgave 8: New dog lists: ", newArrayDog)
+    // console.log("Opgave 8: New dog lists: ", newArrayDog)
 
     //--------------------------- Opgave 8 End -------------------------------------------------------
+    
+    
+    //--------------------------- Opgave 9 Extra Opgave-------------------------------------------------------
+
+    let sum = 0;
+
+    numbersArray.forEach( function(num) {
+        return sum += num
+    })
+
+    console.log("Opgave : Sum all Numbers: ", sum)
+
+    //--------------------------- Opgave 9 End -------------------------------------------------------
     
 
 }) // ends DOMContentLoaded
