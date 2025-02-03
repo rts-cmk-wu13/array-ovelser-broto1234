@@ -78,12 +78,21 @@ document.addEventListener("DOMContentLoaded", function() {
     //--------------------------- Opgave 5 -------------------------------------------------------
 
     
-    let newNumbersArray = numbersArray.map(function(num) {
-        return num * 3}) 
+    // let newNumbersArray = numbersArray.map(function(num) {
+    //     return num * 3}) 
 
-    console.log(newNumbersArray)
+    // console.log(newNumbersArray)
 
     //--------------------------- Opgave 5 End -------------------------------------------------------
+    
+    //--------------------------- Opgave 6 -------------------------------------------------------
+
+    
+    let dogString = dogsArray.join('');  // Using '' for no gap 
+
+    console.log("Opgave 6", dogString)
+
+    //--------------------------- Opgave 6 End -------------------------------------------------------
     
 
 }) // ends DOMContentLoaded
